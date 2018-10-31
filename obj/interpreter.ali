@@ -1,0 +1,18 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.14.0
+A -fPIC
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U interpreter%b		interpreter.adb		f41b08ea NE OO SU
+
+D interpreter.adb	20181031210332 f41b08ea interpreter%b
+D system.ads		20180524051735 085b6ffb system%s
+X 1 interpreter.adb
+1U11*Interpreter 1b11 6l5 6t16
+

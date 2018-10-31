@@ -1,0 +1,17 @@
+[GENERATED OBJECT FILE]
+b__interpreter.o
+[PROJECT FILES]
+/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr
+20181031210332
+[BOUND OBJECT FILES]
+/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/interpreter.o
+[GENERATED SOURCE FILES]
+b__interpreter.ads
+b__interpreter.adb
+b__interpreter.ali
+[RESULTING OPTIONS]
+-L/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/
+-L/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/
+-L/users/andrea/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/
+-static
+/users/andrea/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/libgnat.a

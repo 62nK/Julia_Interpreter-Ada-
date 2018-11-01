@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_file>
+    <file_marker column=" 1" line=" 10" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/interpreter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 10" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/interpreter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/interpreter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 3" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_type.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

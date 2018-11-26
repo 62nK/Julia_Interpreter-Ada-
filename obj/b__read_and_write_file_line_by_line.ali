@@ -5,7 +5,7 @@ A -gnatWb
 A -gnatiw
 A -gnatws
 A -mtune=core2
-A -mmacosx-version-min=10.14.0
+A -mmacosx-version-min=10.14.2
 A -fPIC
 P ZX
 
@@ -19,12 +19,12 @@ RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__interpreter.adb	6c47e09f OO PK IL
+U ada_main%b		b__read_and_write_file_line_by_line.adb  2372721b OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__interpreter.ads	24cdcb70 EE NE OO PK IL
+U ada_main%s		b__read_and_write_file_line_by_line.ads  2faab8fd EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -32,8 +32,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20180524051735 76789da1 ada%s
 D a-except.ads		20180524051735 291912d5 ada.exceptions%s
 D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
-D b__interpreter.ads	20181120001318 44c11696 ada_main%s
-D b__interpreter.adb	20181120001318 019fe4dc ada_main%b
+D b__read_and_write_file_line_by_line.ads  20181119222218 4fa6651b ada_main%s
+D b__read_and_write_file_line_by_line.adb  20181119222218 45cd05d5 ada_main%b
 D system.ads		20180524051735 085b6ffb system%s
 D s-parame.ads		20180524051736 48ec542b system.parameters%s
 D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
@@ -44,8 +44,8 @@ X 1 ada.ads
 16K9*Ada 20e8 5|6r6
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|6w10
-X 4 b__interpreter.ads
-6K9*ada_main 359l5 359e13 5|8b14 221l5 221t13
+X 4 b__read_and_write_file_line_by_line.ads
+6K9*ada_main 293l5 293e13 5|8b14 221l5 221t13
 8i4*gnat_argc{integer} 12m22 12r22 5|200m7
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|201m7
 10m4*gnat_envp{6|67M9} 14m22 14r22 5|202m7
@@ -65,9 +65,7 @@ X 4 b__interpreter.ads
 . 130r22 132r22 134r22 136r22 138r22 140r22 142r22 144r22 146r22 148r22 150r22
 . 152r22 154r22 156r22 158r22 160r22 162r22 164r22 166r22 168r22 170r22 172r22
 . 174r22 176r22 178r22 180r22 182r22 184r22 186r22 188r22 190r22 192r22 194r22
-. 196r22 198r22 200r22 202r22 204r22 206r22 208r22 210r22 212r22 214r22 216r22
-. 218r22 220r22 222r22 224r22 226r22 228r22 230r22 232r22 234r22 236r22 238r22
-. 240r22 242r22 244r22 246r22 248r22
+. 196r22 198r22 200r22 202r22 204r22
 40m4*u00001{39M9} 41r22
 42m4*u00002{39M9} 43r22
 44m4*u00003{39M9} 45r22
@@ -151,42 +149,20 @@ X 4 b__interpreter.ads
 200m4*u00081{39M9} 201r22
 202m4*u00082{39M9} 203r22
 204m4*u00083{39M9} 205r22
-206m4*u00084{39M9} 207r22
-208m4*u00085{39M9} 209r22
-210m4*u00086{39M9} 211r22
-212m4*u00087{39M9} 213r22
-214m4*u00088{39M9} 215r22
-216m4*u00089{39M9} 217r22
-218m4*u00090{39M9} 219r22
-220m4*u00091{39M9} 221r22
-222m4*u00092{39M9} 223r22
-224m4*u00093{39M9} 225r22
-226m4*u00094{39M9} 227r22
-228m4*u00095{39M9} 229r22
-230m4*u00096{39M9} 231r22
-232m4*u00097{39M9} 233r22
-234m4*u00098{39M9} 235r22
-236m4*u00099{39M9} 237r22
-238m4*u00100{39M9} 239r22
-240m4*u00101{39M9} 241r22
-242m4*u00102{39M9} 243r22
-244m4*u00103{39M9} 245r22
-246m4*u00104{39M9} 247r22
-248m4*u00105{39M9} 249r22
-X 5 b__interpreter.adb
-10i4 E013{short_integer} 10m46 10r46 157m7 157r15
-11i4 E025{short_integer} 11m46 11r46 152m7 152r15
-12i4 E027{short_integer} 12m46 12r46 154m7 154r15
-13i4 E021{short_integer} 13m46 13r46 156m7 156r15
-14i4 E057{short_integer} 14m46 14r46 159m7 159r15
-15i4 E080{short_integer} 15m46 15r46 161m7 161r15
-16i4 E059{short_integer} 16m46 16r46 164m7 164r15
-17i4 E056{short_integer} 17m46 17r46 166m7 166r15
-18i4 E083{short_integer} 18m46 18r46 168m7 168r15
-19i4 E078{short_integer} 19m46 19r46 170m7 170r15
-20i4 E076{short_integer} 20m46 20r46 172m7 172r15
-21i4 E075{short_integer} 21m46 21r46 44m10 44r18 174m7 174r15
-22i4 E054{short_integer} 22m46 22r46 33m7 33r15 177m7 177r15
+X 5 b__read_and_write_file_line_by_line.adb
+10i4 E13{short_integer} 10m45 10r45 157m7 157r14
+11i4 E25{short_integer} 11m45 11r45 152m7 152r14
+12i4 E27{short_integer} 12m45 12r45 154m7 154r14
+13i4 E21{short_integer} 13m45 13r45 156m7 156r14
+14i4 E68{short_integer} 14m45 14r45 159m7 159r14
+15i4 E78{short_integer} 15m45 15r45 161m7 161r14
+16i4 E06{short_integer} 16m45 16r45 164m7 164r14
+17i4 E67{short_integer} 17m45 17r45 166m7 166r14
+18i4 E81{short_integer} 18m45 18r45 168m7 168r14
+19i4 E76{short_integer} 19m45 19r45 170m7 170r14
+20i4 E74{short_integer} 20m45 20r45 172m7 172r14
+21i4 E73{short_integer} 21m45 21r45 44m10 44r17 174m7 174r14
+22i4 E65{short_integer} 22m45 22r45 33m7 33r14 177m7 177r14
 24a4 Sec_Default_Sized_Stacks(8|45R9) 144m32 144r32
 26a4 Local_Priority_Specific_Dispatching{string} 131r9
 27a4 Local_Interrupt_States{string} 134r27
@@ -221,7 +197,8 @@ X 5 b__interpreter.adb
 112p7*Finalize_Library_Objects{71P9} 113m25 113r25 148m7
 114i7*Binder_Sec_Stacks_Count{natural} 115m27 115r27 143m7
 116m7*Default_Sized_SS_Pool{6|67M9} 117m27 117r27 144m7
-180U14 Ada_Main_Program 181b<ada,_ada_interpreter>24 206s7
+180U14 Ada_Main_Program 181b<ada,_ada_read_and_write_file_line_by_line>24
+. 206s7
 189U17*Initialize 189>29 190b<c,__gnat_initialize>25 204s7
 189m29 Addr{6|67M9}
 192U17*Finalize 193b<c,__gnat_finalize>25 208s7

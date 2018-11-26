@@ -1,25 +1,25 @@
 pragma Warnings (Off);
 pragma Ada_95;
-pragma Source_File_Name (ada_main, Spec_File_Name => "b__interpreter.ads");
-pragma Source_File_Name (ada_main, Body_File_Name => "b__interpreter.adb");
+pragma Source_File_Name (ada_main, Spec_File_Name => "b__read_and_write_file_line_by_line.ads");
+pragma Source_File_Name (ada_main, Body_File_Name => "b__read_and_write_file_line_by_line.adb");
 pragma Suppress (Overflow_Check);
 with Ada.Exceptions;
 
 package body ada_main is
 
-   E013 : Short_Integer; pragma Import (Ada, E013, "system__soft_links_E");
-   E025 : Short_Integer; pragma Import (Ada, E025, "system__exception_table_E");
-   E027 : Short_Integer; pragma Import (Ada, E027, "system__exceptions_E");
-   E021 : Short_Integer; pragma Import (Ada, E021, "system__soft_links__initialize_E");
-   E057 : Short_Integer; pragma Import (Ada, E057, "ada__io_exceptions_E");
-   E080 : Short_Integer; pragma Import (Ada, E080, "system__os_lib_E");
-   E059 : Short_Integer; pragma Import (Ada, E059, "ada__tags_E");
-   E056 : Short_Integer; pragma Import (Ada, E056, "ada__streams_E");
-   E083 : Short_Integer; pragma Import (Ada, E083, "system__file_control_block_E");
-   E078 : Short_Integer; pragma Import (Ada, E078, "system__finalization_root_E");
-   E076 : Short_Integer; pragma Import (Ada, E076, "ada__finalization_E");
-   E075 : Short_Integer; pragma Import (Ada, E075, "system__file_io_E");
-   E054 : Short_Integer; pragma Import (Ada, E054, "ada__text_io_E");
+   E13 : Short_Integer; pragma Import (Ada, E13, "system__soft_links_E");
+   E25 : Short_Integer; pragma Import (Ada, E25, "system__exception_table_E");
+   E27 : Short_Integer; pragma Import (Ada, E27, "system__exceptions_E");
+   E21 : Short_Integer; pragma Import (Ada, E21, "system__soft_links__initialize_E");
+   E68 : Short_Integer; pragma Import (Ada, E68, "ada__io_exceptions_E");
+   E78 : Short_Integer; pragma Import (Ada, E78, "system__os_lib_E");
+   E06 : Short_Integer; pragma Import (Ada, E06, "ada__tags_E");
+   E67 : Short_Integer; pragma Import (Ada, E67, "ada__streams_E");
+   E81 : Short_Integer; pragma Import (Ada, E81, "system__file_control_block_E");
+   E76 : Short_Integer; pragma Import (Ada, E76, "system__finalization_root_E");
+   E74 : Short_Integer; pragma Import (Ada, E74, "ada__finalization_E");
+   E73 : Short_Integer; pragma Import (Ada, E73, "system__file_io_E");
+   E65 : Short_Integer; pragma Import (Ada, E65, "ada__text_io_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -30,7 +30,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E054 := E054 - 1;
+      E65 := E65 - 1;
       declare
          procedure F1;
          pragma Import (Ada, F1, "ada__text_io__finalize_spec");
@@ -41,7 +41,7 @@ package body ada_main is
          procedure F2;
          pragma Import (Ada, F2, "system__file_io__finalize_body");
       begin
-         E075 := E075 - 1;
+         E73 := E73 - 1;
          F2;
       end;
       declare
@@ -149,36 +149,36 @@ package body ada_main is
 
       System.Soft_Links'Elab_Spec;
       System.Exception_Table'Elab_Body;
-      E025 := E025 + 1;
+      E25 := E25 + 1;
       System.Exceptions'Elab_Spec;
-      E027 := E027 + 1;
+      E27 := E27 + 1;
       System.Soft_Links.Initialize'Elab_Body;
-      E021 := E021 + 1;
-      E013 := E013 + 1;
+      E21 := E21 + 1;
+      E13 := E13 + 1;
       Ada.Io_Exceptions'Elab_Spec;
-      E057 := E057 + 1;
+      E68 := E68 + 1;
       System.Os_Lib'Elab_Body;
-      E080 := E080 + 1;
+      E78 := E78 + 1;
       Ada.Tags'Elab_Spec;
       Ada.Tags'Elab_Body;
-      E059 := E059 + 1;
+      E06 := E06 + 1;
       Ada.Streams'Elab_Spec;
-      E056 := E056 + 1;
+      E67 := E67 + 1;
       System.File_Control_Block'Elab_Spec;
-      E083 := E083 + 1;
+      E81 := E81 + 1;
       System.Finalization_Root'Elab_Spec;
-      E078 := E078 + 1;
+      E76 := E76 + 1;
       Ada.Finalization'Elab_Spec;
-      E076 := E076 + 1;
+      E74 := E74 + 1;
       System.File_Io'Elab_Body;
-      E075 := E075 + 1;
+      E73 := E73 + 1;
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
-      E054 := E054 + 1;
+      E65 := E65 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
-   pragma Import (Ada, Ada_Main_Program, "_ada_interpreter");
+   pragma Import (Ada, Ada_Main_Program, "_ada_read_and_write_file_line_by_line");
 
    function main
      (argc : Integer;
@@ -210,7 +210,7 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/interpreter.o
+   --   /Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/read_and_write_file_line_by_line.o
    --   -L/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/
    --   -L/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/obj/
    --   -L/users/andrea/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/

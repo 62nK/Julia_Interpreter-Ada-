@@ -1,15 +1,20 @@
+with Token_type; use Token_type;
+
 package Token is
+end Token;
 
-   type Token_type is (function_token, 
-                       open_parenthesis_token, closed_parenthesis_token,
-                       if_token, else_token,
-                       while_token, 
-                       for_token,
-                       print_token, 
-                       ge_operator_token, gt_operator_token, le_operator_token, lt_operator_token, eq_operator_token, ne_operator_token,
-                       add_operator_token, sub_operator_token, mul_operator_token, div_operator_token, mod_operator_token, exp_operator_token, rev_div_operator_token,
-                       assing_operator_token, 
-                       id_token, literal_integer_token,
-                       end_token);
-
+package body Token is
+   
+   token_type : Token_type;
+   lexeme : String := CL.Argument (1);
+   row_number : Integer;
+   col_number : Integer;
+   
+   --type Token is new Controlled with private;
+   function create(token_type : Token_type; lexeme : String; row_number, col_number : Integer) return Token;
+   function get_token_type() return token_type;
+   function get_lexeme() return lexeme;
+   function get_row_number() return row_number;
+   function get_col_number() return col_number;
+   
 end Token;

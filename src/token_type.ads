@@ -1,6 +1,6 @@
-package Token_type is
+package Token_Type is
 
-   type Token_type is (function_token, 
+   type token_type_record is (function_token, 
                        open_parenthesis_token, closed_parenthesis_token,
                        if_token, else_token,
                        while_token, 
@@ -10,6 +10,6 @@ package Token_type is
                        add_operator_token, sub_operator_token, mul_operator_token, div_operator_token, mod_operator_token, exp_operator_token, rev_div_operator_token,
                        assing_operator_token, 
                        id_token, literal_integer_token,
-                       end_token);
+                       end_token, EOS_TOK);
 
-end Token_type;
+end Token_Type;

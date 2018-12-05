@@ -1,5 +1,5 @@
-package While_statement is
+package While_Statement is
 
-   
+   function execute() return Token;
 
-end While_statement;
+end While_Statement;

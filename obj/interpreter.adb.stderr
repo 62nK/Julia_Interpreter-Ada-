@@ -1,1 +1,12 @@
-program.ads:8:65: "block_record" is undefined (more references follow)
+block.ads:18:51: "boolean_expression_record" is undefined (more references follow)
+block.ads:20:48: subtype mark required in this context
+block.ads:20:48: found "Boolean_Expression" declared at boolean_expression.ads:1
+block.ads:44:42: subtype mark required in this context
+block.ads:44:42: found "Boolean_Expression" declared at boolean_expression.ads:1
+iter.ads:5:28: "Ada" is not visible (more references follow)
+iter.ads:5:28: non-visible declaration at ada.ads:16
+iter.ads:7:72: "arithmetic_expression_access" is undefined (more references follow)
+iter.ads:8:59: subtype mark required in this context
+iter.ads:8:59: found "Iter" declared at line 3
+iter.ads:9:59: subtype mark required in this context
+iter.ads:9:59: found "Iter" declared at line 3

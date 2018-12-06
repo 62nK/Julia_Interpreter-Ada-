@@ -1,97 +1,70 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 1" line=" 6" >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 4" line=" 15" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
       <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/interpreter.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 8" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/lexicalanalyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 5" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token_list.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 1" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/while_statement.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/program.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/print_statement.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/parser.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 14" line=" 28" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
       <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/memory.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 5" line=" 16" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/literal_integer.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/statement.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 10" line=" 19" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/if_statement.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/iter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 34" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/id.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/memory.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/boolean_expression.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 42" line=" 7" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
       <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/block.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 23" line=" 2" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/binary_expression.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/assignment_statement.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/memory.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/lexicalanalyzer.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 32" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/memory.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 7" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/block.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 15" >
+      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/interpreter.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/arithmetic_expression.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/parser.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/id.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/program.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 57" line=" 27" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/lexicalanalyzer.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/memory.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 7" >
+    <file_marker column=" 42" line=" 7" >
       <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/id.ads</vfs_file>
+      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/block.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/interpreter.gpr</vfs_project>
-      <vfs_file>/Users/andrea/OneDrive - Kennesaw State University/CS 4308 - Concepts of Programming Languages/Project/Julia Interpreter/Ada - Julia Bottom-up Interpreter/Interpreter/src/lexicalanalyzer.ads</vfs_file>
+    <file_marker current="true" column=" 1" line=" 16" >
+      <vfs_project />
+      <vfs_file>/Users/andrea/opt/GNAT/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/rts-native/adainclude/ada.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

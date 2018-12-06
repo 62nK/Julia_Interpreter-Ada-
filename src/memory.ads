@@ -1,40 +1,40 @@
 with Ada.Characters.Handling; use Ada.Characters.Handling;
+with Token; use Token;
 
-package Memory is
+package body Memory is
 
-   mem: array (0 .. 100) of integer := (others => 0);
+   memory_array: array (0 .. 100) of integer := (others => 0);
 
-   function get_index (l: in lexeme_record) return natural is
-      ch: character := to_string (l)(1);
-      index: natural;
+   function get_index (lexeme_instance: in lexeme_record) return Natural is
+      symbol_descriptor: Character := to_string (lexeme_instance)(1);
+      index: Natural;
    begin
-      if not is_letter (ch) then
-         raise invalid_identifier with ch & " is not a valid identifer";
+      if not is_letter (symbol_descriptor) then
+         raise invalid_identifier with symbol_descriptor & " is not a valid id";
       end if;
-      if is_lower (ch) then
-         index := character'pos(ch) - character'pos('a');
+      if is_lower (symbol_descriptor) then
+         index := character'pos(symbol_descriptor) - character'pos('a');
       else
-         index := character'pos(ch) - character'pos('A') + 26;
+         index := character'pos(symbol_descriptor) - character'pos('A') + 26;
       end if;
       return index;
    end get_index;
 
-   -----------
-   -- store --
-   -----------
-
-   procedure store (l: in lexeme_record; value: integer) is
+   procedure store (lexeme_instance: in lexeme_record; value: Integer) is
    begin
-      mem(get_index(l)) := value;
+      memory_array(get_index(lexeme_instance)) := value;
    end store;
 
-   -----------
-   -- fetch --
-   -----------
-
-   function fetch (l: in lexeme_record) return integer is
+   function fetch (lexeme_instance: in lexeme_record) return Integer is
    begin
-      return mem(get_index(l));
+      return memory_array(get_index(lexeme_instance));
    end fetch;
+
+end Memory;
+
+package Memory is
+
+   procedure store (lexeme_instance: in lexeme_record; value: Integer) with pre => is_valid_id(lexeme_instance);
+   function fetch (lexeme_instance: in lexeme_record) return Integer with pre => is_valid_id(lexeme_instance);
 
 end Memory;

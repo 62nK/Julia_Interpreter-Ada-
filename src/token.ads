@@ -9,15 +9,15 @@ package Token is
    
    function get_token_type (token_instance: in token_record) return token_type_record;
    function get_lexeme (token_instance: in token_record) return lexeme_record;
-   
    function get_row_num (token_instance: in token_record) return Positive;
    function get_col_num (token_instance: in token_record) return Positive;
+   
    function lexeme_length (token_instance: in lexeme_record) return Positive;
-  
+   function is_valid_id (lexeme_instance: in lexeme_record) return boolean;
+
    --function to_string (lexeme: in Lexeme_record) return String;
    --function "=" (lexeme: in Lexeme_record; str: in String) return Boolean;
    --function make (str: in String) return Lexeme_record;
-   --function is_valid_id (l: in Lexeme_record) return boolean;
    
 private
    

@@ -12,6 +12,6 @@ procedure Interpreter is
 begin
 
    parse (parser_instance, program_instance);
-   --execute (program_instance);
+   execute (program_instance);
 
 end Interpreter;
